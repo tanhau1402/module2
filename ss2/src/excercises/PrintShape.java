@@ -22,7 +22,7 @@ public class PrintShape {
                 case "1":
                     for (int i = 0; i < 5; i++) {
                         for (int j = 0; j < 10; j++) {
-                            System.out.println("*");
+                            System.out.print("*");
                         }
                         System.out.println("\n");
                     }
@@ -30,7 +30,7 @@ public class PrintShape {
                 case "2":
                     for (int i = 0; i < 6; i++) {
                         for (int j = 0; j < i; j++) {
-                            System.out.println("*");
+                            System.out.print("*");
                         }
                         System.out.println("\n");
                     }

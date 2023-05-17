@@ -1,4 +1,4 @@
-package excercises.stopWatch;
+package excercises.stopwatch;
 
 public class MainStopWatch {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class MainStopWatch {
         stopWatch.start();
         stopWatch.sort(arr);
         stopWatch.stop();
-        System.out.println(stopWatch.getElapsedTime());
+        System.out.println(stopWatch.getElapsedTime()+ "millisecond");
 
     }
 }

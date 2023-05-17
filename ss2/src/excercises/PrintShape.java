@@ -8,6 +8,7 @@ public class PrintShape {
     public static void main(String[] args) {
         displayMainMenu();
     }
+
     public static void displayMainMenu() {
         do {
             Scanner sc = new Scanner(System.in);
@@ -36,10 +37,24 @@ public class PrintShape {
                     }
                     break;
                 case "3":
+                    for (int i = 0; i < 6; i++) {
+                        for (int j = 0; j < i + 1; j++) {
+                            System.out.print("*");
+                        }
+                        System.out.println("\n");
+                    }
+                    for (int i = 5; i > 0; i--) {
+                        for (int j = 0; j < i; ++j) {
+                            System.out.print("*");
+                        }
+                        System.out.println("\n");
+                    }
 
+                    break;
                 case "4":
                     System.exit(4);
+                    break;
             }
-        }while (true);
+        } while (true);
     }
 }

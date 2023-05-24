@@ -7,7 +7,7 @@ public class MainStopWatch {
         stopWatch.start();
         stopWatch.sort(arr);
         stopWatch.stop();
-        System.out.println(stopWatch.getElapsedTime()+ "millisecond");
+        System.out.println(stopWatch.getElapsedTime()+ " millisecond");
 
     }
 }

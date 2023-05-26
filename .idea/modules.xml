@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/case/case.iml" filepath="$PROJECT_DIR$/case/case.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/module_2.iml" filepath="$PROJECT_DIR$/.idea/module_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss1/ss1.iml" filepath="$PROJECT_DIR$/ss1/ss1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss2/ss2.iml" filepath="$PROJECT_DIR$/ss2/ss2.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/ss4/ss4.iml" filepath="$PROJECT_DIR$/ss4/ss4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss5/ss5.iml" filepath="$PROJECT_DIR$/ss5/ss5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss6/ss6.iml" filepath="$PROJECT_DIR$/ss6/ss6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7/ss7.iml" filepath="$PROJECT_DIR$/ss7/ss7.iml" />
     </modules>
   </component>
 </project>
